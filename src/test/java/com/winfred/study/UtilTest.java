@@ -9,13 +9,13 @@ import org.junit.*;
 public class UtilTest {
     private Util util = new Util();
 
-    @Before
-    public void setUp() throws Exception {
+    @BeforeClass
+    public static void setUp() throws Exception {
         System.out.println("before--------------------------------");
     }
 
-    @After
-    public void tearDown() throws Exception {
+    @AfterClass
+    public static void tearDown() throws Exception {
         System.out.println("after----------------------------------");
     }
 
